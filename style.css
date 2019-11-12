@@ -1,4 +1,9 @@
 /* Colors and fonts */
+@font-face {
+  font-family: 'Butler';
+  src: url("profile/fonts/Butler_Black_Stencil.otf");
+}
+
 body {
   background: #F7F9FC;
   color: #575F7D;
@@ -7,7 +12,7 @@ body {
   font-weight: lighter;
 }
 h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Butler';
 }
 h1 {
   color: #575F7D;
