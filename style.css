@@ -1,23 +1,21 @@
 /* Colors and fonts */
 @font-face {
-  font-family: 'Butler';
-  src: url("profile/fonts/Butler_Black_Stencil.otf");
+  font-family: 'butler';
+  src: url('profile/fonts/Butler_Regular.otf') format('otf');
 }
 
 body {
   background: #F7F9FC;
   color: #575F7D;
-  font-family: 'Lora', serif;
+  font-family: 'Avenir', serif;
   font-size: 17px;
   font-weight: lighter;
 }
 h1, h2, h3 {
-  font-family: 'Butler';
+  font-family: 'butler';
 }
 h1 {
   color: #575F7D;
-  font-size: 32px;
-  font-weight: 900;
 }
 h2 {
   color: #7ECE90;
@@ -26,7 +24,7 @@ h2 {
   font-weight: 500;
 }
 a {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Avenir', sans-serif;
   text-decoration: none;
   color: #6B72E1;
   font-weight: 600;
